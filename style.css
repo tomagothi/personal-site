@@ -164,12 +164,21 @@ footer a {
 @media only screen and (max-width: 720px) {
   .my-name p {
     width: 200px;
+    grid-area: 2 / 2 / 4 / 5;
+    font-family: 'Caudex';
+    font-weight: bold;
+    font-size: 1.5rem;
+    z-index: 1;  
   }
 }
 
 @media only screen and (max-width: 500px) {
   .my-name p {
     width: 100px;
+    grid-area: 2 / 2 / 4 / 5;
+    font-family: 'Caudex';
+    font-weight: bold;
+    font-size: 1.5rem;
+    z-index: 1;  
   }
-
 }
